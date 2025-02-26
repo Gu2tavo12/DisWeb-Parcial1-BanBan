@@ -30,6 +30,16 @@
 .nav-link:hover, .nav-link.active{
     color: #000;
 }
+.navbar-nav .nav-item .nav-link {
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s ease-in-out;
+    transition: font-size 0.5s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 2px solid #000;
+    font-size: large;
+}
 
 .hero-section{
     background: url('https://www.banbansv.com/wp-content/uploads/2020/10/Banner_BG_Home.jpg') no-repeat center;
@@ -50,3 +60,17 @@
 }
 
 
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar{
+    animation: 1.5s fadeInUp ease-in-out;
+}
