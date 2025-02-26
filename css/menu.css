@@ -1,0 +1,52 @@
+.navbar{
+    background-color: #fff;
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+.login-button{
+    background-color: #009970;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color; 
+}
+
+.login-button:hover{
+    background-color: #00b383;
+}
+
+
+
+.nav-link{
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+}
+.nav-link:hover, .nav-link.active{
+    color: #000;
+}
+
+.hero-section{
+    background: url('https://www.banbansv.com/wp-content/uploads/2020/10/Banner_BG_Home.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero-section .container{
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+.hero-section .container h1{
+    font-size: 1.5em;
+}
+.hero-section h2{
+    font-size: 1.3rem;
+}
+
+
